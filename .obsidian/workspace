@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "047d9f8faf4e4e9d",
+        "id": "014ccfa8e38fa8b1",
         "type": "leaf",
         "active": true,
         "state": {
@@ -87,6 +87,9 @@
   },
   "lastOpenFiles": [
     "README.md",
+    "Partial key.md",
+    "CS2312/Lecture/1].md",
+    "CS3334/Lecture/1.md",
     "CS2312/Lecture/1.md",
     "CS3402/Lecture/1.md"
   ]
