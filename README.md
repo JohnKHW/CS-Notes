@@ -15,3 +15,7 @@ Please use [Obsidian](https://obsidian.md/) to read it
 1. [Lecture 1](CS3334/Lecture/1.md)
 ### CS3402 Database Systems
 1. [Lecture 1](CS3402/Lecture/1.md)
+
+### CS3103 Operating Systems
+
+1. [Lecture 1](CS3103/Lecture/1.md)
