@@ -1,0 +1,91 @@
+{
+  "main": {
+    "id": "e0e0119c2dfdf1ac",
+    "type": "split",
+    "children": [
+      {
+        "id": "047d9f8faf4e4e9d",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "CS3402/Lecture/1.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fe2e4ea787c55522",
+    "type": "split",
+    "children": [
+      {
+        "id": "2d54345e451766c7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "812517e51dfee1de",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "a0468245e7086d98",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "dc330aa7009722bb",
+    "type": "split",
+    "children": [
+      {
+        "id": "d71c82212a9b6239",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "adea8b1bce9dd881",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CS3402/Lecture/1.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "CS3402/Lecture/1.md"
+  ]
+}
