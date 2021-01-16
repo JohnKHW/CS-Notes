@@ -1,6 +1,6 @@
 # CS-Notes
-This is the repository to store the notes of Computer Science
-For Better Revision Experience
+This is the repository to store the notes of Computer Science\
+For Better Revision Experience\
 Please use [Obsidian](https://obsidian.md/) to read it
 
 ---
