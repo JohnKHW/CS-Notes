@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "CS3342/Lecture/2.md",
             "mode": "source"
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "CS3342/Lecture/2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,11 +86,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "CS3342/Lecture/2.md",
+    "CS3342/Lecture/Untitled.md",
+    "CS3402/Lecture/1.md",
+    "CS3402/Tutorial/Untitled.md",
     "README.md",
+    "CS3103/Lecture/1.md",
     "Partial key.md",
     "CS2312/Lecture/1].md",
     "CS3334/Lecture/1.md",
-    "CS2312/Lecture/1.md",
-    "CS3402/Lecture/1.md"
+    "CS2312/Lecture/1.md"
   ]
 }
