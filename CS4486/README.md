@@ -206,6 +206,7 @@ low error, high complexity
 #### Ridge Regression
 
 Adding a _l<sub>2</sub>_ regularization term
+
 ![Ridge_Regression](../.resources/Ridge_Regression.png)
 
 - E(w) = 1/2 N∑n=1 (h(X<sub>n</sub>, W) - y<sub>n</sub>)<sup>2</sup> + λ/2 ||w||<sup>2</sup>
@@ -214,6 +215,7 @@ Adding a _l<sub>2</sub>_ regularization term
 #### Lasso Regression
 
 Adding a _l<sub>1</sup>_ regularization term
+
 ![Lasso_Regression](../.resources/Lasso_Regression.png)
 
 - E(w) = 1/2 N∑n=1 (h(X<sub>n</sub>, W) - y<sub>n</sub>)<sup>2</sup> + λ/2 |w|<sup>1</sup>
