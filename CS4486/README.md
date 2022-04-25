@@ -10,4 +10,4 @@ A solution sequence of actions
 5. Cost
 
 ### State Space Graph
-![State Space Graph](../.resources\State Space Graph.png)
+![State Space Graph](../.resources/State Space Graph.png)
