@@ -130,7 +130,9 @@ Step 4: Order the queue by cost
 
 - Key Idea: Expand deepest unexpanded node
 - Implementation: LIFO (Last In First Out) -> Stack
-  ![Depth_First_Search](../.resources/Depth_First_Search.png)
+
+![Depth_First_Search](../.resources/Depth_First_Search.png)
+
 - Completeness: No, as infinite-depth spaces or spaces with loops
 - Optimality: No
 - Time Complexity: O(b<sup>m</sup>)
@@ -169,7 +171,7 @@ Training set: x -> _f_(x)
 
 Testing set: use _f_(x) in Training set to find y
 
-## Supervised Lerning Pupeline
+## Supervised Lerning Pipeline
 
 1. Preparing Data (Training Set)
 2. Determine the hypothesis space _H_
@@ -220,3 +222,69 @@ Adding a _l<sub>1</sup>_ regularization term
 
 - E(w) = 1/2 N∑n=1 (h(X<sub>n</sub>, W) - y<sub>n</sub>)<sup>2</sup> + λ/2 |w|<sup>1</sup>
   - |w|<sup>1</sup> = w<sub>0</sub> + w<sub>1</sub> + ... + w<sub>M</sub>
+
+### Classification Model: Decision Tree
+
+Hypothesis space: a decision tree
+
+- H = { DT| h(x, DT) = DT(x)}
+
+#### Entropy
+
+Measure how information of the node
+
+- Smaller entropy have more informative
+- Formula: _I_(n) = -(n)log<sub>2</sub>(n)
+- Select largest Gain(x, y)
+
+#### Step 1
+
+Find label entropy
+
+> _H_(label) = -(n<sub>1</sub>)log<sub>2</sub>(n<sub>1</sub>) + -(n<sub>2</sub>)log<sub>2</sub>(n<sub>2</sub>)
+
+#### Step 2
+
+Find value of feature<sub>a</sub> in options <sub>i, ii</sub>
+
+> a: P(a<sub>i</sub>), P(a<sub>ii</sub>)
+
+#### Step 3
+
+Find child feature<sub>a</sub> of option<sub>i</sub> entropy
+
+> _H_(a<sub>i</sub>) = -(n<sub>1</sub>)log<sub>2</sub>(n<sub>1</sub>) + -(n<sub>2</sub>)log<sub>2</sub>(n<sub>2</sub>)
+
+#### Step 4
+
+Find child feature<sub>a</sub> of option<sub>ii</sub> entropy
+
+> _H_(a<sub>ii</sub>) = -(n<sub>1</sub>)log<sub>2</sub>(n<sub>1</sub>) + -(n<sub>2</sub>)log<sub>2</sub>(n<sub>2</sub>)
+
+#### Step 5
+
+Find the sum of feature<sub>a</sub>
+
+> _E_(a, n<sub>1</sub>) = P(a<sub>i</sub>)_H_(a<sub>i</sub>) + P(a<sub>ii</sub>)_H_(a<sub>ii</sub>)
+
+#### Step 6
+
+Find Gain of feature<sub>a</sub>
+
+> Gain(label, n<sub>1</sub>) = _H_(label) - _E_(a, n<sub>1</sub>)
+
+#### Step 7
+
+Repeat Step 2-6
+
+#### Step 8
+
+Find the maximum Gain(label, n<sub>x</sub>)
+
+#### Step 9
+
+Draw the decision tree
+
+![Draw_Decision_Tree](../.resources/Draw_Decision_Tree.png)
+
+Highlight value come from Entropy calculation
